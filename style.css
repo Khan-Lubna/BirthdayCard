@@ -1,0 +1,17 @@
+body{
+    background-color: plum;
+    text-align: center;
+    padding-top: 200px;
+    font-family: cursive;
+}
+.p1{
+    font-size: 150%;
+}
+#display{
+    height: 30px;
+    width: 250px;
+}
+#btn{
+    height: 25px;
+    width: 120px;
+}
