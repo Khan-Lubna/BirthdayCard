@@ -2,4 +2,3 @@
 from = "https://extraordinary-hummingbird-220010.netlify.app/"
 to = "https://extraordinary-hummingbird-220010.netlify.app/index2.html"
 status = 301
-force = true
