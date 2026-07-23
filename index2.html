@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>page2</title>
+        <title>🎉 Happy Birthday!</title>
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <h1>Happy Birthday!</h1>
-        <h2 id="demo"></h2>
-        <div class="p1">
-        <p>Wishing you a great birthday filled with wonderful surprises!</p>
-        <p>Enjoy your special day!</p>
+        <div class="card-container">
+            <div class="card">
+                <div class="confetti" id="confetti"></div>
+                <div class="cake-emoji">🍰🎈🎁</div>
+                <h1 class="card-title">Happy Birthday!</h1>
+                <h2 id="demo" class="name-display"></h2>
+                <div class="message">
+                    <p>🎉 Wishing you a fantastic birthday filled with joy, love, and wonderful surprises!</p>
+                    <p>🎂 May your day be as sweet as cake and your year ahead be amazing!</p>
+                    <p>🎁 Enjoy every moment of your special day!</p>
+                </div>
+                <button onclick="goBack()" class="back-btn">← Back</button>
+            </div>
         </div>
+        <script src="script.js"></script>
     </body>
-    <script src="script.js"></script>
 </html>
